@@ -4,7 +4,7 @@ import Meal from "./Meal";
 export default function MealList({ mealData }) {
   const nutrients = mealData.nutrients;
 
-  return (
+  return ( 
     <main>
       <section className="nutrients">
         <h1>Macronutrientes</h1>
