@@ -25,6 +25,7 @@ export default function Meal({ meal }) {
         <li>Cantidades: {meal.servings}</li>
       </ul>
 
+      
       <a href={meal.sourceUrl}>Ir a receta</a>
     </article>
   );
